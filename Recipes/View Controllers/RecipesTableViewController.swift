@@ -90,7 +90,7 @@ class RecipesTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
         if segue.identifier == "RecipeDetail" {
             let recipeDetailVC = segue.destination as? RecipeDetailViewController
-            recipeDetailVC?.recipes = recipes
+            recipeDetailVC?.recipe = recipes
     }
     }
 
